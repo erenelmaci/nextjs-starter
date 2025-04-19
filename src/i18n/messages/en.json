@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "Sign In",
+    "description": "Sign in to your account"
+  },
+  "app": {
+    "name": "App Name"
+  },
+  "auth": {
+    "login": {
+      "Hesabınıza giriş yapın": "Login to your account",
+      "Hesabınıza giriş yapmak için e-posta adresinizi girin": "Enter your email below to login to your account",
+      "E-posta": "Email",
+      "Şifre": "Password",
+      "Şifrenizi mi unuttunuz?": "Forgot your password?",
+      "Giriş Yap": "Login",
+      "veya": "Or",
+      "GitHub ile Giriş Yap": "Login with GitHub",
+      "Hesabınız yok mu?": "Don't have an account?",
+      "Kayıt Ol": "Sign up"
+    }
+  },
+  "dashboard": {
+    "companyName": "Acme Inc.",
+    "Overview": "Overview",
+    "home": "Home",
+    "userMenu": {
+      "profile": "Profile",
+      "billing": "Billing",
+      "settings": "Settings",
+      "newTeam": "New Team",
+      "logout": "Log out"
+    }
+  }
+}

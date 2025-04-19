@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "Giriş Yap",
+    "description": "Hesabınıza giriş yapın"
+  },
+  "app": {
+    "name": "Uygulama Adı"
+  },
+  "auth": {
+    "login": {
+      "Hesabınıza giriş yapın": "Hesabınıza giriş yapın",
+      "Hesabınıza giriş yapmak için e-posta adresinizi girin": "Hesabınıza giriş yapmak için e-posta adresinizi girin",
+      "E-posta": "E-posta",
+      "Şifre": "Şifre",
+      "Şifrenizi mi unuttunuz?": "Şifrenizi mi unuttunuz?",
+      "Giriş Yap": "Giriş Yap",
+      "veya": "veya",
+      "GitHub ile Giriş Yap": "GitHub ile Giriş Yap",
+      "Hesabınız yok mu?": "Hesabınız yok mu?",
+      "Kayıt Ol": "Kayıt Ol"
+    }
+  },
+  "dashboard": {
+    "companyName": "Acme A.Ş.",
+    "Overview": "Genel Bakış",
+    "home": "Ana Sayfa",
+    "userMenu": {
+      "profile": "Profil",
+      "billing": "Faturalama",
+      "settings": "Ayarlar",
+      "newTeam": "Yeni Takım",
+      "logout": "Çıkış Yap"
+    }
+  }
+}
