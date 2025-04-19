@@ -6,3 +6,4 @@ build
 coverage
 *.config.js
 *.config.ts 
+.vscode

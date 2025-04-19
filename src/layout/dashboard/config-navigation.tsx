@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 
 const ICONS = {
   home: <Iconify icon="solar:home-2-broken" />,
+  settings: <Iconify icon="solar:settings-broken" />,
 };
 
 export function useNavData() {
@@ -13,12 +14,11 @@ export function useNavData() {
   return useMemo(() => {
     const navData = [
       {
-        subheader: 'Overview',
+        subheader: t('Overview'),
         items: [
           {
-            title: t('home'),
+            title: t('Home'),
             path: paths.dashboard.root,
-            // roles: [""],
             icon: ICONS.home,
           },
         ],

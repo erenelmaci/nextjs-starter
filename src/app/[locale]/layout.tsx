@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { Providers } from '@/redux/Providers';
-import { CONFIG } from '@/config-global';
+import { LoadingProvider } from '@/components/loading-screen/loading-provider';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,16 +13,6 @@ const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
 });
-
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const messages = (await import(`../../i18n/messages/${locale}.json`)).default;
-
-  return {
-    title: `${CONFIG.appName} - ${messages.metadata.title}`,
-    description: messages.metadata.description,
-  };
-}
 
 export default async function LocaleLayout({
   children,
@@ -47,7 +37,7 @@ export default async function LocaleLayout({
       >
         <Providers>
           <NextIntlClientProvider locale={locale} messages={messages}>
-            {children}
+            <LoadingProvider>{children}</LoadingProvider>
           </NextIntlClientProvider>
         </Providers>
       </body>

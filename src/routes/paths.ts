@@ -14,5 +14,6 @@ export const paths = {
   },
   dashboard: {
     root: ROOTS.DASHBOARD,
+    settings: `${ROOTS.DASHBOARD}/settings`,
   },
 };

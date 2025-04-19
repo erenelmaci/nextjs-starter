@@ -8,3 +8,4 @@ build
 Dockerfile
 docker-compose.yml
 *.log
+.vscode

@@ -1,0 +1,7 @@
+{
+  "i18n-ally.localesPaths": ["src/i18n/messages"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "tr",
+  "i18n-ally.enabledFrameworks": ["next-intl"]
+}
