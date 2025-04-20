@@ -13,7 +13,7 @@ import {
 import { useNavData } from '@/layout/dashboard/config-navigation';
 import { NavSection } from './nav-section';
 import { NavUser } from './nav-user';
-import kursmaxLogo from '../../../../public/logo/logo-full.svg';
+import Logo from '../../../../public/logo/logo-full.svg';
 import Image from 'next/image';
 // import { useTranslations } from 'next-intl';
 
@@ -38,7 +38,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               </a> */}
               <div className="w-full h-12 relative flex items-center justify-center">
                 <Image
-                  src={kursmaxLogo}
+                  src={Logo}
                   alt="Kursmax Logo"
                   width={300}
                   height={48}

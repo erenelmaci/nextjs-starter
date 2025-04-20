@@ -56,6 +56,21 @@
       "termsText": "Kullanım Şartları",
       "privacyLink": "Gizlilik Politikası",
       "and": "ve"
+    },
+    "newPassword": {
+      "companyName": "Kursmax",
+      "title": "Yeni Şifre Belirle",
+      "description": "Yeni şifrenizi belirlemek için aşağıdaki alanları doldurun.",
+      "password": "Yeni Şifre",
+      "passwordPlaceholder": "Yeni şifrenizi girin",
+      "passwordAgain": "Yeni Şifre Tekrarı",
+      "passwordAgainPlaceholder": "Yeni şifrenizi tekrar girin",
+      "submit": "Şifreyi Güncelle",
+      "rememberPassword": "Şifrenizi hatırladınız mı?",
+      "signIn": "Giriş yap",
+      "termsText": "Kullanım Şartları",
+      "privacyLink": "Gizlilik Politikası",
+      "and": "ve"
     }
   },
   "dashboard": {

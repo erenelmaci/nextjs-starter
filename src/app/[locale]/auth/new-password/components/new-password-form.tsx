@@ -5,15 +5,13 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+// import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { paths } from '@/routes/paths';
 import Logo from '@/components/logo/logo';
 
-export function PasswordRecoveryForm({
-  className,
-  ...props
-}: React.ComponentPropsWithoutRef<'div'>) {
-  const t = useTranslations('auth.passwordRecovery');
+export function NewPasswordForm({ className, ...props }: React.ComponentPropsWithoutRef<'div'>) {
+  const t = useTranslations('auth.newPassword');
 
   return (
     <div className={cn('flex justify-center items-center', className)} {...props}>
@@ -40,12 +38,22 @@ export function PasswordRecoveryForm({
         <CardContent className="flex flex-col gap-6">
           <form className="flex flex-col gap-6">
             <div className="grid gap-2">
-              <Label htmlFor="email">{t('email')}</Label>
+              <Label htmlFor="password">{t('password')}</Label>
               <Input
-                id="email"
-                name="email"
-                type="email"
-                placeholder={t('emailPlaceholder')}
+                id="password"
+                name="password"
+                type="password"
+                placeholder={t('passwordPlaceholder')}
+                required
+              />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="passwordAgain">{t('passwordAgain')}</Label>
+              <Input
+                id="passwordAgain"
+                name="passwordAgain"
+                type="password"
+                placeholder={t('passwordAgainPlaceholder')}
                 required
               />
             </div>

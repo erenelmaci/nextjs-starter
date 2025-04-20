@@ -56,6 +56,21 @@
       "termsText": "Terms of Service",
       "privacyLink": "Privacy Policy",
       "and": "and"
+    },
+    "newPassword": {
+      "companyName": "Kursmax",
+      "title": "Set New Password",
+      "description": "Fill in the fields below to set your new password.",
+      "password": "New Password",
+      "passwordPlaceholder": "Enter your new password",
+      "passwordAgain": "Confirm New Password",
+      "passwordAgainPlaceholder": "Re-enter your new password",
+      "submit": "Update Password",
+      "rememberPassword": "Remember your password?",
+      "signIn": "Sign in",
+      "termsText": "Terms of Service",
+      "privacyLink": "Privacy Policy",
+      "and": "and"
     }
   },
   "dashboard": {

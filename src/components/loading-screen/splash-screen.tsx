@@ -3,8 +3,8 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import Logo from '../logo/logo';
 // Start of Selection
-import { Logo } from '@/components/logo/logo';
 
 type SplashScreenProps = React.HTMLAttributes<HTMLDivElement>;
 
@@ -39,7 +39,7 @@ export function SplashScreen({ className, ...props }: SplashScreenProps) {
           repeat: Infinity,
         }}
       >
-        <Logo disabledLink className="h-32 w-32" />
+        <Logo isSingle={true} disabledLink className="h-16 w-16" />
       </motion.div>
 
       <motion.div
@@ -50,7 +50,7 @@ export function SplashScreen({ className, ...props }: SplashScreenProps) {
           borderRadius: ['25%', '25%', '50%', '50%', '25%'],
         }}
         transition={{ ease: 'linear', duration: 3.2, repeat: Infinity }}
-        className="absolute h-[100px] w-[100px] border-[3px] border-primary/25"
+        className="absolute h-[80px] w-[80px] border-[3px] border-primary/25"
       />
 
       <motion.div
@@ -65,7 +65,7 @@ export function SplashScreen({ className, ...props }: SplashScreenProps) {
           duration: 3.2,
           repeat: Infinity,
         }}
-        className="absolute h-[120px] w-[120px] border-[8px] border-primary/25"
+        className="absolute h-[100px] w-[100px] border-[8px] border-primary/25"
       />
     </div>
   );

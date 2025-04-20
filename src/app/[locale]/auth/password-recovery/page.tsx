@@ -1,5 +1,5 @@
-import PasswordRecoveryView from './components/view/password-recovery-view';
+import PasswordRevoveryView from './components/view/password-recovery-view';
 
-export default function LoginPage() {
-  return <PasswordRecoveryView />;
+export default function PasswordRecoveryPage() {
+  return <PasswordRevoveryView />;
 }

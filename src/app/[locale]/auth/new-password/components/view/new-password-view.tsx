@@ -1,10 +1,10 @@
-import { PasswordRecoveryForm } from '../password-recovery-form';
+import { NewPasswordForm } from '../new-password-form';
 
-export default function PasswordRevoveryView() {
+export default function NewPasswordView() {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-background p-6 md:p-10">
       <div className="w-full max-w-sm">
-        <PasswordRecoveryForm />
+        <NewPasswordForm />
       </div>
     </div>
   );
